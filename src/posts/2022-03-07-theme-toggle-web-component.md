@@ -1,13 +1,13 @@
 ---
 tags: post
-permalink: "/posts/theme-toggle-web-component/"
-date: 2022-03-10
-title: "A web component to toggle themes"
-categories: []
+permalink: /posts/theme-toggle-web-component/
+date: 2022-03-10T00:00:00Z
+title: A web component to toggle themes
+categories:
 description: A simple web component to toggle the site themes and modes.
-image: "img/rss/2022-03-web-component-toggle.webp"
-ogImage: "img/twitter/2022-03-web-component-toggle.webp"
-ogImageAlt: "A web component to toggle site themes / modes"
+image: /images/rss/2022-03-web-component-toggle.webp
+ogImage: /images/twitter/2022-03-web-component-toggle.webp
+ogImageAlt: A web component to toggle site themes / modes
 ---
 
 # A web component to toggle themes
