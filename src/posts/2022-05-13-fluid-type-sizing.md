@@ -1,32 +1,24 @@
 ---
 tags: post
-permalink: "/posts/fluid-type-and-sizing/"
-date: 2022-05-13
-title: "Fluid type and sizing in CSS"
-categories: []
-description: A guide to using clamp(), min(), and max() to create fluid type and sizing in CSS.
-image: "img/twitter/2022-05-13-fluid-sizing.png"
-ogImage: "img/twitter/2022-05-13-fluid-sizing.png"
-ogImageAlt: "A guide to using clamp(), min(), and max() to create fluid type and sizing in CSS."
+permalink: /posts/fluid-type-and-sizing/
+date: 2022-05-13T00:00:00Z
+title: Fluid type and sizing in CSS
+categories:
+description: >-
+  A guide to using clamp(), min(), and max() to create fluid type and sizing in
+  CSS.
+image: img/twitter/2022-05-13-fluid-sizing.png
+ogImage: img/twitter/2022-05-13-fluid-sizing.png
+ogImageAlt: >-
+  A guide to using clamp(), min(), and max() to create fluid type and sizing in
+  CSS.
 ---
 
 # Fluid type and sizing using clamp(), min(), max()
 
-Fluid type and sizing started gaining traction in the front end community over the last couple of years. It has allowed us to simplify a lot of our responsive code and in many cases remove media queries all together. In this article I will be talking about how clamp(), min(), and max() work and some of the more popular ways that they are used.
+Fluid type and sizing started gaining traction in the front-end community over the last couple of years. It has allowed us to simplify a lot of our responsive code and in many cases remove media queries all together. In this article I will be talking about how clamp(), min(), and max() work and some of the more popular ways that they are used.
 
-<div class="series-block">
-
-## 2022 new CSS hotness series
-
-This is article is a part of a series I'm going to be doing talking about some of the cool new things that have come to CSS in the last couple of years.
-
-1. [Fluid type and sizing using clamp(), min(), max()](/posts/fluid-type-and-sizing/) _(You are here)_
-2. where(), is(), has()
-3. :focus-visible
-4. aspect-ratio
-5. Container Queries
-
-</div>
+<div class="series-block"><h2>2022 new CSS hotness series</h2><p>This is article is a part of a series I'm going to be doing talking about some of the cool new things that have come to CSS in the last couple of years.</p><ol><li><a href="/posts/fluid-type-and-sizing/">Fluid type and sizing using clamp(), min(), max()</a> <em>(You are here)</em></li><li>where(), is(), has()</li><li>:focus-visible</li><li>aspect-ratio</li><li>Container Queries</li></ol></div>
 
 ## min() and max()
 
@@ -104,11 +96,7 @@ One of the most popular uses for clamp, min, and max is to create fluid typograp
 
 Here is an example of all three being used for fluid type and how they differ.
 
-<iframe height="480" style="width: 100%;" scrolling="no" title="Min, max, and clamp example on Codepen" src="https://codepen.io/craigwfox/embed/VwQjVyJ?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/craigwfox/pen/VwQjVyJ">
-  min and max example</a> by Craig Fox (<a href="https://codepen.io/craigwfox">@craigwfox</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+<iframe style="width: 100%;" scrolling="no" title="Min, max, and clamp example on Codepen" src="https://codepen.io/craigwfox/embed/VwQjVyJ?default-tab=html%2Cresult" loading="lazy" allowtransparency="true" allowfullscreen="true" height="480" frameborder="no">See the Pen min and max example by Craig Fox (@craigwfox) on CodePen.</iframe>
 
 ### Margin and padding
 
